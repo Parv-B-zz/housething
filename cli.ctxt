@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=cli
+comment1.params=
+comment1.target=void\ mainMenu()
+comment2.params=
+comment2.target=void\ clear()
+comment3.params=h
+comment3.target=void\ printPeople(House)
+comment4.params=h
+comment4.target=void\ printItems(House)
+comment5.params=str
+comment5.target=void\ println(java.lang.String)
+numComments=6

@@ -16,7 +16,7 @@ public class cli{
         println(divider);
     }
     public static void clear() {
-        System.out.println('\u000C');
+        System.out.println('\u000C'); ///////
     }
     public static void printPeople(House h) {
         cli.clear();
@@ -30,8 +30,11 @@ public class cli{
     public static void printItems(House h) {
         cli.clear();
         for (item i : h.items.values()) {
+            String str;
+            if(i.owner.personId==1111) str = "House";
+            else str = i.owner.name;
             println(divider);
-            println("Id: " + i.itemId + "     $" + i.value);
+            println("Id: " + str + "     $" + i.value);
             println("Owner: " + i.owner.name);
             println("Description: " + i.description);
         }

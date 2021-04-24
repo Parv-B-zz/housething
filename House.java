@@ -33,6 +33,7 @@ public class House extends person {
 
         // attempt transaction
         it.owner = c;
+        //System.out.println(this.money);
         this.money += it.value;
         c.money -= it.value;
 
@@ -70,7 +71,9 @@ public class House extends person {
 
         //attempt transaction
         it.owner = c;
+        System.out.println(this.money);
         this.money -= it.value;
+        System.out.println(this.money);
         c.money += it.value;
 
         if (this.money < 0) {

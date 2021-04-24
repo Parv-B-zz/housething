@@ -2,6 +2,8 @@
 comment0.target=cli
 comment1.params=
 comment1.target=void\ mainMenu()
+comment10.params=
+comment10.target=void\ exitSeq()
 comment2.params=
 comment2.target=void\ clear()
 comment3.params=h
@@ -18,4 +20,4 @@ comment8.params=h
 comment8.target=void\ buyItem(House)
 comment9.params=h
 comment9.target=void\ sellItem(House)
-numComments=10
+numComments=11

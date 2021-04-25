@@ -46,17 +46,12 @@ public class House extends person {
         }
     }
 
-    public void buy(int itemId, int personId) {
+    public void buy(int itemId) {
         /**
          * itId - ID of item to be sold | perId - ID of seller
          */
-
         if(!(items.containsKey(itemId))){
             System.out.println("Item does not exist");
-            return;
-        }
-        else if(!(people.containsKey(personId))){
-            System.out.println("Person does not exist");
             return;
         }
 

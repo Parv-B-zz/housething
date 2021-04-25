@@ -74,9 +74,7 @@ public class cli{
     public static void buyItem(House h){
         System.out.println("Enter ID of item to be bought");
         int itemID = sc.nextInt();
-        System.out.println("Enter ID of seller");
-        int sellerID = sc.nextInt();
-        h.buy(itemID, sellerID);
+        h.buy(itemID);
     }
     public static void sellItem(House h){
         System.out.println("Enter ID of item to be sold");
